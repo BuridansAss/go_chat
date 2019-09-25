@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  postSQL:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRESS_PASSWORD: "123"
+      POSTGRES_USER: "root"
+    ports:
+      - "5432:5432"
+    container_name: "sql-postgres"
