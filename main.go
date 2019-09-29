@@ -1,7 +1,9 @@
 package main
 
-import "buridansAss/chat/src/http"
+import "buridansAss/chat/src"
 
 func main() {
-	http.New()
+	src.Run()
+	//http.New()
+	//fmt.Println(services.GenerateToken().SignedString([]byte("buridan")));
 }

@@ -11,7 +11,7 @@ func NewConfig() *Config {
 	dbUser := "root"
 	dbPass := "123"
 	dbName := "go_chat"
-	port := "9876"
+	port := ":9876"
 
 	return &Config{
 		DBUser:     dbUser,
